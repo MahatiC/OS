@@ -1,6 +1,6 @@
 // C program to implement eventfd and epoll
 // along with pthreads
-//execute: gcc epoll.c -lpthread
+// execute: gcc epoll.c -lpthread
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -95,7 +95,6 @@ void* foo()
         printf("Writing a second eventfd value \n");
     }
 
- 
     printf("Returning thread\n");
  
     return NULL;
