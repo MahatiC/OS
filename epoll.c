@@ -1,5 +1,6 @@
 // C program to implement eventfd and epoll
 // along with pthreads
+//execute: gcc epoll.c -lpthread
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
