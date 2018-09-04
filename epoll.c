@@ -1,5 +1,5 @@
-// C program to implement cond(), signal()
-// and wait() functions
+// C program to implement eventfd and epoll
+// along with pthreads
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
